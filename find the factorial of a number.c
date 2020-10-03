@@ -8,12 +8,12 @@ int main()
 }
 int fact(int n)
 {
-	if(n==0)
+	if(n<=0)
 	{
 		return 1;
 	}
 	else
 	{
-		return n*fact(n-1) ;  // Recursion has used 
+		return n*fact(n-1) ;  // Recursion is used 
 	}
 }
