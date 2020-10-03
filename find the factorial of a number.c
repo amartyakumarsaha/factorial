@@ -1,14 +1,14 @@
 #include<stdio.h>
-int fact();
+long long int fact();
 int main()
 {
 	int n;
 	scanf("%d",&n);
-	printf("%d",fact(n));
+	printf("%lld",fact(n));
 }
-int fact(int n)
+long long int fact(int n)
 {
-	if(n<=0)
+	if(n==0)
 	{
 		return 1;
 	}
