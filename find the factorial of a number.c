@@ -8,7 +8,7 @@ int main()
 }
 int fact(int n)
 {
-	if(n==0)
+	if(n==0)	// Because 0!=1 . 
 	{
 		return 1;
 	}
