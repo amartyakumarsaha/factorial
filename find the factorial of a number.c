@@ -1,12 +1,12 @@
 #include<stdio.h>
-int fact();
+long long int fact();
 int main()
 {
 	int n;
 	scanf("%d",&n);
-	printf("%d",fact(n));
+	printf("%lld",fact(n));
 }
-int fact(int n)
+long long int fact(int n)
 {
 	if(n==0)	// Because 0!=1 . 
 	{
@@ -14,6 +14,6 @@ int fact(int n)
 	}
 	else
 	{
-		return n*fact(n-1) ;  // Recursion has used 
+		return n*fact(n-1) ;  // Recursion is used 
 	}
 }
